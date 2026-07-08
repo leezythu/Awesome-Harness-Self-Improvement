@@ -1,6 +1,29 @@
-# Awesome 面向自我改进的 Harness 工程 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#贡献) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+<div align="center">
 
-[English](README.md) | **中文**
+<img src="assets/banner.png" alt="Awesome 面向自我改进的 Harness 工程" width="100%" />
+
+<h1>Awesome 面向自我改进的 Harness 工程</h1>
+
+<p><a href="README.md">English</a> | <b>中文</b></p>
+
+<p><i>当 <b>harness</b>——包裹在 LLM 之外的那层系统——学会<b>改进它自己</b>。</i></p>
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#贡献)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/leezythu/Awesome-Harness-Self-Improvement?style=social)](https://github.com/leezythu/Awesome-Harness-Self-Improvement/stargazers)
+
+<p>
+  <a href="#概览"><b>概览</b></a> ·
+  <a href="#优化阶梯"><b>优化阶梯</b></a> ·
+  <a href="#论文清单"><b>论文清单</b></a> ·
+  <a href="#7-毗邻领域焦点外"><b>范围</b></a> ·
+  <a href="#贡献"><b>贡献</b></a>
+</p>
+
+</div>
+
+---
 
 > 一份聚焦 **harness 工程**、将其作为 LLM 智能体 **递归自我改进（RSI）** 基底的精选阅读清单。
 >
@@ -23,29 +46,29 @@
 
 ## 目录
 
-- [概览](#概览)
-- [优化阶梯](#优化阶梯)
-- [历史脉络](#历史脉络)
-- [论文清单](#论文清单)
-  - [1. 基础与立场文章](#1-基础与立场文章)
-  - [2. Harness 优化（核心）](#2-harness-优化核心)
+- [🧭 概览](#概览)
+- [🪜 优化阶梯](#优化阶梯)
+- [🕰️ 历史脉络](#历史脉络)
+- [📚 论文清单](#论文清单)
+  - [1. 🌱 基础与立场文章](#1-基础与立场文章)
+  - [2. ⚙️ Harness 优化（核心）](#2-harness-优化核心)
     - [2.1 自进化上下文与记忆](#21-自进化上下文与记忆)
     - [2.2 提示词优化](#22-提示词优化)
     - [2.3 智能体工作流的自动优化](#23-智能体工作流的自动优化)
     - [2.4 自我改进与自我修改的 Harness](#24-自我改进与自我修改的-harness)
     - [2.5 进化搜索与程序搜索](#25-进化搜索与程序搜索)
     - [2.6 与模型权重的联合优化](#26-与模型权重的联合优化)
-  - [3. 自动化科研：回路的实战](#3-自动化科研回路的实战)
+  - [3. 🔬 自动化科研：回路的实战](#3-自动化科研回路的实战)
     - [3.1 闭环与自我改进的科研智能体](#31-闭环与自我改进的科研智能体)
     - [3.2 自我改进的想法与数据生成](#32-自我改进的想法与数据生成)
     - [3.3 现实检验：智能体是科学家了吗？](#33-现实检验智能体是科学家了吗)
-  - [4. 闭合回路的评估器](#4-闭合回路的评估器)
+  - [4. 📊 闭合回路的评估器](#4-闭合回路的评估器)
     - [4.1 AI 科研与机器学习工程基准](#41-ai-科研与机器学习工程基准)
     - [4.2 编程与终端智能体基准](#42-编程与终端智能体基准)
     - [4.3 验证与验证器](#43-验证与验证器)
-  - [5. 挑战：当自我改进出错时](#5-挑战当自我改进出错时)
-  - [6. 相关综述](#6-相关综述)
-  - [7. 毗邻领域（焦点外）](#7-毗邻领域焦点外)
+  - [5. ⚠️ 挑战：当自我改进出错时](#5-挑战当自我改进出错时)
+  - [6. 📖 相关综述](#6-相关综述)
+  - [7. 🧩 毗邻领域（焦点外）](#7-毗邻领域焦点外)
 - [未来方向](#未来方向)
 - [贡献](#贡献)
 - [引用](#引用)
@@ -60,11 +83,36 @@
 
 因此本清单的组织问题狭窄而具体：**harness 何时、以何种方式改进它自己？** 此处收录的一切，都因其被优化/搜索/进化的对象是 harness 本身——而不仅是模型，也不只是人写的一套设计。
 
+```mermaid
+flowchart LR
+    A["🤖 智能体 + Harness"] -->|行动| B["🌍 环境"]
+    B -->|轨迹与结果| C["🔍 评估器"]
+    C -->|信号| D["🛠️ 自我修改<br/>提示词 · 上下文 · 工作流 · 工具 · 代码"]
+    D -->|更好的脚手架| A
+    classDef node fill:#1e1b4b,stroke:#7c3aed,stroke-width:2px,color:#e0e7ff;
+    class A,B,C,D node;
+```
+
+<div align="center"><sub>自我改进回路：harness 把自身执行的反馈转化为对自身脚手架的修改。</sub></div>
+
 ---
 
 ## 优化阶梯
 
 Harness 系统内部被*自我改进*对象的演进，从最手工到最通用。**这架阶梯是本清单的骨架。**
+
+```mermaid
+flowchart BT
+    L0["<b>L0</b> · 指令提示词<br/><i>APE · OPRO · GEPA</i>"]
+    L1["<b>L1</b> · 上下文与记忆<br/><i>ACE · ReasoningBank</i>"]
+    L2["<b>L2</b> · 工作流 / 图<br/><i>ADAS · AFlow · GPTSwarm</i>"]
+    L3["<b>L3</b> · Harness / 智能体代码<br/><i>DGM · SICA · Gödel Agent</i>"]
+    L4["<b>L4</b> · 优化器 / 元-harness<br/><i>STOP · Meta-Harness · MCE</i>"]
+    L5["<b>L5</b> · Harness + 权重<br/><i>SIA · SEAL</i>"]
+    L0 --> L1 --> L2 --> L3 --> L4 --> L5
+    classDef rung fill:#0f172a,stroke:#22d3ee,stroke-width:2px,color:#e0f2fe;
+    class L0,L1,L2,L3,L4,L5 rung;
+```
 
 | 层级 | 被自我改进的对象 | 代表工作 | 小节 |
 | ---- | -------------- | -------- | ---- |

@@ -1,6 +1,29 @@
-# Awesome Harness Engineering for Self-Improvement [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+<div align="center">
 
-**English** | [中文](README_zh.md)
+<img src="assets/banner.png" alt="Awesome Harness Engineering for Self-Improvement" width="100%" />
+
+<h1>Awesome Harness Engineering for Self-Improvement</h1>
+
+<p><b>English</b> | <a href="README_zh.md">中文</a></p>
+
+<p><i>When the <b>harness</b> — the system around an LLM — learns to <b>improve itself</b>.</i></p>
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/leezythu/Awesome-Harness-Self-Improvement?style=social)](https://github.com/leezythu/Awesome-Harness-Self-Improvement/stargazers)
+
+<p>
+  <a href="#overview"><b>Overview</b></a> ·
+  <a href="#the-optimization-ladder"><b>Optimization Ladder</b></a> ·
+  <a href="#paper-list"><b>Paper List</b></a> ·
+  <a href="#7-adjacent-areas-out-of-focus"><b>Scope</b></a> ·
+  <a href="#contributing"><b>Contributing</b></a>
+</p>
+
+</div>
+
+---
 
 > A curated reading list on **harness engineering** as the substrate for **recursive self-improvement (RSI)** of LLM agents.
 >
@@ -23,29 +46,29 @@ This repository is inspired by Lilian Weng's blog post *["Harness Engineering fo
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [The Optimization Ladder](#the-optimization-ladder)
-- [Historical Lineage](#historical-lineage)
-- [Paper List](#paper-list)
-  - [1. Foundations & Position Pieces](#1-foundations--position-pieces)
-  - [2. Harness Optimization (the core)](#2-harness-optimization-the-core)
+- [🧭 Overview](#overview)
+- [🪜 The Optimization Ladder](#the-optimization-ladder)
+- [🕰️ Historical Lineage](#historical-lineage)
+- [📚 Paper List](#paper-list)
+  - [1. 🌱 Foundations & Position Pieces](#1-foundations--position-pieces)
+  - [2. ⚙️ Harness Optimization (the core)](#2-harness-optimization-the-core)
     - [2.1 Self-Evolving Context & Memory](#21-self-evolving-context--memory)
     - [2.2 Prompt Optimization](#22-prompt-optimization)
     - [2.3 Automated Optimization of Agentic Workflows](#23-automated-optimization-of-agentic-workflows)
     - [2.4 Self-Improving & Self-Modifying Harnesses](#24-self-improving--self-modifying-harnesses)
     - [2.5 Evolutionary & Program Search](#25-evolutionary--program-search)
     - [2.6 Joint Optimization with Model Weights](#26-joint-optimization-with-model-weights)
-  - [3. Auto-Research: A Self-Improvement Loop in Action](#3-auto-research-a-self-improvement-loop-in-action)
+  - [3. 🔬 Auto-Research: A Self-Improvement Loop in Action](#3-auto-research-a-self-improvement-loop-in-action)
     - [3.1 Closed-Loop & Self-Improving Research Agents](#31-closed-loop--self-improving-research-agents)
     - [3.2 Self-Improving Idea & Data Generation](#32-self-improving-idea--data-generation)
     - [3.3 Reality Checks: Are Agents Scientists Yet?](#33-reality-checks-are-agents-scientists-yet)
-  - [4. Evaluators That Close the Loop](#4-evaluators-that-close-the-loop)
+  - [4. 📊 Evaluators That Close the Loop](#4-evaluators-that-close-the-loop)
     - [4.1 AI Research & ML Engineering Benchmarks](#41-ai-research--ml-engineering-benchmarks)
     - [4.2 Coding & Terminal Agent Benchmarks](#42-coding--terminal-agent-benchmarks)
     - [4.3 Verification & Verifiers](#43-verification--verifiers)
-  - [5. Challenges: When Self-Improvement Goes Wrong](#5-challenges-when-self-improvement-goes-wrong)
-  - [6. Related Surveys](#6-related-surveys)
-  - [7. Adjacent Areas (Out of Focus)](#7-adjacent-areas-out-of-focus)
+  - [5. ⚠️ Challenges: When Self-Improvement Goes Wrong](#5-challenges-when-self-improvement-goes-wrong)
+  - [6. 📖 Related Surveys](#6-related-surveys)
+  - [7. 🧩 Adjacent Areas (Out of Focus)](#7-adjacent-areas-out-of-focus)
 - [Future Directions](#future-directions)
 - [Contributing](#contributing)
 - [Citation](#citation)
@@ -60,11 +83,36 @@ Recursive Self-Improvement (RSI) dates back to I. J. Good (1965) and was named b
 
 The organizing question of this list is therefore narrow and specific: **when does a harness improve itself, and how?** Everything here is selected because the harness — not just the model, and not merely a human-authored design — is the thing being optimized, searched, or evolved.
 
+```mermaid
+flowchart LR
+    A["🤖 Agent + Harness"] -->|acts| B["🌍 Environment"]
+    B -->|traces & results| C["🔍 Evaluator"]
+    C -->|signal| D["🛠️ Self-modify<br/>prompts · context · workflow · tools · code"]
+    D -->|better scaffolding| A
+    classDef node fill:#1e1b4b,stroke:#7c3aed,stroke-width:2px,color:#e0e7ff;
+    class A,B,C,D node;
+```
+
+<div align="center"><sub>The self-improvement loop: the harness turns its own execution feedback into edits to its own scaffolding.</sub></div>
+
 ---
 
 ## The Optimization Ladder
 
 The progression of the object being *self-improved* inside a harness system, from most manual to most general. **This ladder is the backbone of the list.**
+
+```mermaid
+flowchart BT
+    L0["<b>L0</b> · Instruction prompts<br/><i>APE · OPRO · GEPA</i>"]
+    L1["<b>L1</b> · Context & memory<br/><i>ACE · ReasoningBank</i>"]
+    L2["<b>L2</b> · Workflow / graph<br/><i>ADAS · AFlow · GPTSwarm</i>"]
+    L3["<b>L3</b> · Harness / agent code<br/><i>DGM · SICA · Gödel Agent</i>"]
+    L4["<b>L4</b> · Optimizer / meta-harness<br/><i>STOP · Meta-Harness · MCE</i>"]
+    L5["<b>L5</b> · Harness + weights<br/><i>SIA · SEAL</i>"]
+    L0 --> L1 --> L2 --> L3 --> L4 --> L5
+    classDef rung fill:#0f172a,stroke:#22d3ee,stroke-width:2px,color:#e0f2fe;
+    class L0,L1,L2,L3,L4,L5 rung;
+```
 
 | Level | Self-Improved Object | Representative Work | Section |
 | ----- | -------------------- | ------------------- | ------- |
