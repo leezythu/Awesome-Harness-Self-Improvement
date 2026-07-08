@@ -1,4 +1,4 @@
-# Awesome Harness Engineering for Self-Improvement [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Harness Engineering for Self-Improvement [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 
 **English** | [中文](README_zh.md)
 
@@ -297,7 +297,9 @@ Open problems where current self-improving harnesses provide partial solutions b
 
 ## Contributing
 
-Contributions are welcome, but please respect the [scope](#scope-please-read): the harness (context, prompts, workflow, tools, code) must be the object that **improves itself**, or a direct evaluator of such a loop. Harness *design* work and purely model-weight methods belong in [§7](#7-adjacent-areas-out-of-focus) at most.
+**Pull requests are very welcome!** 🎉 This list is meant to be a living, community-maintained resource. If you know of a paper we missed, spot an outdated or broken link, or have a better one-line summary, please [open a pull request](https://github.com/leezythu/Awesome-Harness-Self-Improvement/pulls) or [start an issue](https://github.com/leezythu/Awesome-Harness-Self-Improvement/issues). Every contribution — big or small — is appreciated.
+
+Please respect the [scope](#scope-please-read): the harness (context, prompts, workflow, tools, code) must be the object that **improves itself**, or a direct evaluator of such a loop. Harness *design* work and purely model-weight methods belong in [§7](#7-adjacent-areas-out-of-focus) at most.
 
 Please open a PR that:
 
