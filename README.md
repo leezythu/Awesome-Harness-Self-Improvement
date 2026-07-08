@@ -309,15 +309,13 @@ Please open a PR that:
 
 ## Citation
 
-If you find this list useful, please consider citing the blog post that inspired it:
+If you find this list useful, please consider citing this repository:
 
 ```bibtex
-@article{weng2026harness,
-  title  = {Harness Engineering for Self-Improvement},
-  author = {Weng, Lilian},
-  journal = {lilianweng.github.io},
+@misc{awesome_self_improving_harness,
+  title  = {Awesome Harness Engineering for Self-Improvement},
+  author = {leezythu},
   year   = {2026},
-  month  = {July},
-  url    = {https://lilianweng.github.io/posts/2026-07-04-harness/}
+  howpublished = {\url{https://github.com/leezythu/Awesome-Harness-Self-Improvement}}
 }
 ```
