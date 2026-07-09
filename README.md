@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="Awesome Harness Engineering for Self-Improvement" width="100%" />
+<img src="assets/banner.jpg" alt="Awesome Harness Engineering for Self-Improvement" width="100%" />
 
 <h1>Awesome Harness Engineering for Self-Improvement</h1>
 

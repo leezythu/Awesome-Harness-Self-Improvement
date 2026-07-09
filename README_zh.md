@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="Awesome 面向自我改进的 Harness 工程" width="100%" />
+<img src="assets/banner.jpg" alt="Awesome 面向自我改进的 Harness 工程" width="100%" />
 
 <h1>Awesome 面向自我改进的 Harness 工程</h1>
 
