@@ -275,6 +275,7 @@ flowchart BT
 
 - **SWE-bench** — "Can Language Models Resolve Real-World GitHub Issues?". Jimenez et al. *ICLR* 2024. [[paper]](https://arxiv.org/abs/2310.06770) — 2,294 real issue→PR tasks; the standard target for coding-harness self-improvement (DGM, SICA).
 - **Terminal-Bench** — "Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces". Merrill et al. *arXiv* 2026.† — Human-verified containerized terminal tasks; the eval used by Meta-Harness / Self-Harness.
+- **ClawBench** — "A Benchmark for Computer-Using AI Agents". Zhang et al. *arXiv* 2026.† [[paper]](https://arxiv.org/abs/2604.08523) [[code]](https://github.com/reacher-z/ClawBench) — Live-web benchmark for harnesses, with isolated multi-step tasks, request interception, and replayable execution traces.
 - **HAL** — "Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation". Kapoor et al. *ICLR* 2026. [[paper]](https://arxiv.org/abs/2510.11977) — Standardized, cost-aware, third-party leaderboard across 9 benchmarks.
 
 #### 4.3 Verification & Verifiers
