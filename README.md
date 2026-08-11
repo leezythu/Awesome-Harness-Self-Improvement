@@ -212,6 +212,7 @@ flowchart BT
 - **Self-Harness** — "Harnesses That Improve Themselves". Zhang et al. *arXiv* 2026.† [[paper]](https://arxiv.org/abs/2606.09498) — A propose-evaluate-accept loop: weakness mining → bounded harness proposal → regression validation on held-in/held-out splits.
 - **AutoHarness** — "Improving LLM Agents by Automatically Synthesizing a Code Harness". Lou et al. *arXiv* 2026.† — Uses iterative code refinement with environment feedback to auto-synthesize a code harness.
 - **Hyperagents** — Zhang et al. *arXiv* 2026.† [[paper]](https://arxiv.org/abs/2603.19461) — A meta-agent controls how to modify task agents to create new ones.
+- **Ouroboros** — "Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution". Razzhigaev et al. *arXiv* 2026.† [[paper]](https://arxiv.org/abs/2608.08311) [[code]](https://github.com/razzant/ouroboros) — Documents recursive and experience-driven core evolution in a coding-agent harness, with reviewed commits becoming the runtime for later work.
 
 #### 2.5 Evolutionary & Program Search
 
