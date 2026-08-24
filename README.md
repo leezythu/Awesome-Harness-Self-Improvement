@@ -246,6 +246,7 @@ flowchart BT
 - **NovelSeek / InternAgent** — "When Agent Becomes the Scientist". InternAgent Team. *arXiv* 2025.† [[paper]](https://arxiv.org/abs/2505.16938) — Unified closed-loop multi-agent framework across 12 scientific tasks.
 - **AI co-scientist** — "Towards an AI co-scientist". Gottweis et al. *arXiv* 2025.† [[paper]](https://arxiv.org/abs/2502.18864) — Gemini multi-agent system that tournament-evolves biomedical hypotheses through a generate-debate-rank loop.
 - **AIDE** — "AI-Driven Exploration in the Space of Code". Jiang et al. *arXiv* 2025.† [[paper]](https://arxiv.org/abs/2502.13138) — Casts ML engineering as iterative code optimization via agentic tree search over its own solutions.
+- **CORAL** — "CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery". Qu et al. *COLM* 2026. [[paper]](https://arxiv.org/abs/2604.01658) [[code]](https://github.com/Human-Agent-Society/CORAL) — Runs multiple coding agents in isolated worktrees around an external grader, retaining scored attempts and sharing notes and reusable skills so later experiments build on prior results.
 
 #### 3.2 Self-Improving Idea & Data Generation
 
