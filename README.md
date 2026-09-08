@@ -320,6 +320,8 @@ flowchart BT
 - *Memory/state & runtimes:* MemGPT ([2310.08560](https://arxiv.org/abs/2310.08560)), AIOS ([2403.16971](https://arxiv.org/abs/2403.16971)), MCP ([2503.23278](https://arxiv.org/abs/2503.23278)).
 - *Practitioner reports:* [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) (Anthropic), [Effective Context Engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) (Anthropic).
 
+- **HAT** — "Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report". TaoLive AIGC LLM Team. *arXiv* 2026.† [[paper]](https://arxiv.org/abs/2608.15763) — Trains agents to use changing harnesses and evaluates developer-reviewed edits with frozen weights; a training-and-evaluation boundary reference, not an autonomous harness improver.
+
 **B. Purely model-weight self-improvement — improves the model, not the harness.**
 
 - *Self-play & self-training:* SPIN ([2401.01335](https://arxiv.org/abs/2401.01335)), Self-Rewarding LMs ([2401.10020](https://arxiv.org/abs/2401.10020)).

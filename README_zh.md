@@ -317,6 +317,8 @@ flowchart BT
 - *记忆/状态与运行时：* MemGPT（[2310.08560](https://arxiv.org/abs/2310.08560)）、AIOS（[2403.16971](https://arxiv.org/abs/2403.16971)）、MCP（[2503.23278](https://arxiv.org/abs/2503.23278)）。
 - *实践报告：* [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents)（Anthropic）、[Effective Context Engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)（Anthropic）。
 
+- **HAT** — "Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report". TaoLive AIGC LLM Team. *arXiv* 2026.† [[paper]](https://arxiv.org/abs/2608.15763) — 通过训练提升模型对变化 Harness 的适应能力，并固定权重评估开发者审核后的更新；作为训练与评估的边界参考，不将其视为自主 Harness 改进器。
+
 **B. 纯模型权重的自我改进——改进的是模型而非 harness。**
 
 - *自博弈与自训练：* SPIN（[2401.01335](https://arxiv.org/abs/2401.01335)）、Self-Rewarding LMs（[2401.10020](https://arxiv.org/abs/2401.10020)）。
