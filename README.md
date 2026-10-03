@@ -307,6 +307,7 @@ flowchart BT
 - **A Survey of Context Engineering for Large Language Models** — Mei et al. *arXiv* 2025.† [[paper]](https://arxiv.org/abs/2507.13334) — 1400+ paper survey of retrieval/processing/management components that self-evolving context builds on.
 - **Automated Design of Agentic Systems: A Survey** — Madžar & Mekterović. *Preprints.org* 2026.† — Surveys 33 ADAS methods along target/search/representation/feedback axes.
 - **Agent Harness for Large Language Model Agents: A Survey** — Meng et al. *Preprints.org* 2026.† [[repo]](https://github.com/Gloriaameng/Awesome-Agent-Harness) — Formalizes the harness as H=(E,T,C,S,L,V); a complementary systems-oriented view of the substrate self-improvement acts on.
+- **The Agent Loop: A Survey of Control Strategies, Skills, and Harnesses for LLM Agents** — Lee & Park. *SSRN* 2026.† [[paper]](https://ssrn.com/abstract=7186738) — Surveys what a self-improving harness changes: loop control, skills (including how agents acquire them) and the harness itself, plus how to tell harness gains from model gains.
 
 ### 7. Adjacent Areas (Out of Focus)
 
