@@ -72,6 +72,7 @@ This repository is inspired by Lilian Weng's blog post *["Harness Engineering fo
 - [Future Directions](#future-directions)
 - [Contributing](#contributing)
 - [Citation](#citation)
+- [Star History](#star-history)
 
 ---
 
@@ -375,3 +376,7 @@ If you find this list useful, please consider citing this repository:
   howpublished = {\url{https://github.com/leezythu/Awesome-Harness-Self-Improvement}}
 }
 ```
+
+## Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=leezythu/Awesome-Harness-Self-Improvement&type=Date)](https://star-history.dera.page/#leezythu/Awesome-Harness-Self-Improvement&Date)

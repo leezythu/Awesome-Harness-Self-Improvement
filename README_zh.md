@@ -72,6 +72,7 @@
 - [未来方向](#未来方向)
 - [贡献](#贡献)
 - [引用](#引用)
+- [Star 趋势](#star-趋势)
 
 ---
 
@@ -372,3 +373,7 @@ flowchart BT
   howpublished = {\url{https://github.com/leezythu/Awesome-Harness-Self-Improvement}}
 }
 ```
+
+## Star 趋势
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=leezythu/Awesome-Harness-Self-Improvement&type=Date)](https://star-history.dera.page/#leezythu/Awesome-Harness-Self-Improvement&Date)
