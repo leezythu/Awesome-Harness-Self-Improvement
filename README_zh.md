@@ -304,6 +304,7 @@ flowchart BT
 - **A Survey of Context Engineering for Large Language Models** — Mei 等. *arXiv* 2025.† [[论文]](https://arxiv.org/abs/2507.13334) — 1400+ 篇论文的综述，涵盖自进化上下文所依赖的检索/处理/管理组件。
 - **Automated Design of Agentic Systems: A Survey** — Madžar & Mekterović. *Preprints.org* 2026.† — 沿目标/搜索/表示/反馈四轴综述 33 种 ADAS 方法。
 - **Agent Harness for Large Language Model Agents: A Survey** — Meng 等. *Preprints.org* 2026.† [[仓库]](https://github.com/Gloriaameng/Awesome-Agent-Harness) — 将 harness 形式化为 H=(E,T,C,S,L,V)；对自我改进所作用的基底给出互补的系统视角。
+- **The Agent Loop: A Survey of Control Strategies, Skills, and Harnesses for LLM Agents** — Lee & Park. *SSRN* 2026.† [[论文]](https://ssrn.com/abstract=7186738) — 综述自我改进的 harness 所改动的对象：循环控制、技能（包括智能体如何习得技能）与 harness 本身，并讨论如何区分 harness 带来的提升与模型带来的提升。
 
 ### 7. 毗邻领域（焦点外）
 
