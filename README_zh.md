@@ -170,6 +170,7 @@ flowchart BT
 - **Agent Workflow Memory (AWM)** — Wang、Mao、Fried、Neubig. *ICML* 2025. [[论文]](https://arxiv.org/abs/2409.07429) — 归纳可重用"工作流"作为持久程序性记忆，随经验被智能体不断增长与复用。
 - **Memp** — "Exploring Agent Procedural Memory". Fang 等. *ACL Findings* 2026.† [[论文]](https://arxiv.org/abs/2508.06433) — 将轨迹蒸馏为脚本式流程，智能体以 build/retrieve/update 策略持续维护。
 - **MemAct** — "Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks". Zhang 等. *ACL Findings* 2026.† [[论文]](https://arxiv.org/abs/2510.12635) — 将工作记忆管理重构为可端到端训练的策略动作。
+- **EvoRepair** — "Learning from Repair Experience: Self-Evolving Agents for Automated Vulnerability Repair". Hu 等. *ICSE* 2027. [[论文]](https://arxiv.org/abs/2605.30105) [[代码]](https://github.com/iSEngLab/Learn-from-Repair-Experience) — 质量打分的经验库在长程 AVR 运行中检索并更新漏洞修复知识。
 
 #### 2.2 提示词优化
 
