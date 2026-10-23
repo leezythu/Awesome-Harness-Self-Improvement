@@ -170,6 +170,7 @@ flowchart BT
 - **Agent Workflow Memory (AWM)** — Wang, Mao, Fried, Neubig. *ICML* 2025. [[paper]](https://arxiv.org/abs/2409.07429) — Induces reusable "workflows" as durable procedural memory that the agent grows and reuses with experience.
 - **Memp** — "Exploring Agent Procedural Memory". Fang et al. *ACL Findings* 2026.† [[paper]](https://arxiv.org/abs/2508.06433) — Distills trajectories into script-like procedures with build/retrieve/update strategies the agent maintains over time.
 - **MemAct** — "Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks". Zhang et al. *ACL Findings* 2026.† [[paper]](https://arxiv.org/abs/2510.12635) — Reframes working-memory management as learnable policy actions trained end-to-end.
+- **EvoRepair** — "Learning from Repair Experience: Self-Evolving Agents for Automated Vulnerability Repair". Hu et al. *ICSE* 2027. [[paper]](https://arxiv.org/abs/2605.30105) [[code]](https://github.com/iSEngLab/Learn-from-Repair-Experience) — Quality-scored experience bank retrieves and updates vulnerability-repair knowledge across long-horizon AVR runs.
 
 #### 2.2 Prompt Optimization
 
