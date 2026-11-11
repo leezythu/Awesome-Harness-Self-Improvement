@@ -212,6 +212,7 @@ flowchart BT
 - **SICA** — "A Self-Improving Coding Agent". Robeyns 等. *arXiv* 2025.† [[论文]](https://arxiv.org/abs/2504.15228) — 取消元/目标之分；智能体为成本/速度/准确率编辑自身代码。
 - **Meta-Harness** — "End-to-End Optimization of Model Harnesses". Lee 等. *arXiv* 2026.† [[论文]](https://arxiv.org/abs/2603.28052) — 智能体式提出器通过文件系统搜索 harness *代码*；输出帕累托前沿的 harness 集合。"优化 harness 的 harness"。
 - **Self-Harness** — "Harnesses That Improve Themselves". Zhang 等. *arXiv* 2026.† [[论文]](https://arxiv.org/abs/2606.09498) — 提出-评估-接受循环：弱点挖掘 → 有界 harness 提案 → 在 held-in/held-out 上做回归验证。
+- **PluginRSI** — "Recursive Improvement of Agent Harnesses with Reusable Plugins". Shi 等. *arXiv* 2026.† [[论文]](https://arxiv.org/abs/2609.32423) — 将 harness 拆分为原子化插件，独立变异并沉淀至共享插件库，跨轮次重组为新 harness。
 - **AutoHarness** — "Improving LLM Agents by Automatically Synthesizing a Code Harness". Lou 等. *arXiv* 2026.† — 用带环境反馈的迭代代码精炼自动合成 harness。
 - **Hyperagents** — Zhang 等. *arXiv* 2026.† [[论文]](https://arxiv.org/abs/2603.19461) — 由元智能体控制如何修改任务智能体以创建新智能体。
 
