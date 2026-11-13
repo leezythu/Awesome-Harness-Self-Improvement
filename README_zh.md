@@ -171,6 +171,7 @@ flowchart BT
 - **Memp** — "Exploring Agent Procedural Memory". Fang 等. *ACL Findings* 2026.† [[论文]](https://arxiv.org/abs/2508.06433) — 将轨迹蒸馏为脚本式流程，智能体以 build/retrieve/update 策略持续维护。
 - **MemAct** — "Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks". Zhang 等. *ACL Findings* 2026.† [[论文]](https://arxiv.org/abs/2510.12635) — 将工作记忆管理重构为可端到端训练的策略动作。
 - **EvoRepair** — "Learning from Repair Experience: Self-Evolving Agents for Automated Vulnerability Repair". Hu 等. *ICSE* 2027. [[论文]](https://arxiv.org/abs/2605.30105) [[代码]](https://github.com/iSEngLab/Learn-from-Repair-Experience) — 质量打分的经验库在长程 AVR 运行中检索并更新漏洞修复知识。
+- **MixUA** — "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction". Wang 等. *arXiv* 2026.† [[论文]](https://arxiv.org/abs/2611.10439) — 将多用户、多异构智能体的轨迹蒸馏为经验，并按用户-智能体、用户、智能体或全局范围写入记忆，使经验可跨用户与智能体迁移而不泄露隐私信息。
 
 #### 2.2 提示词优化
 
